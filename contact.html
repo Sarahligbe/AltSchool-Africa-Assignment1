@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <h1 class="logo">SayAligbe</h1>
+      <input type="checkbox" id="toggle" />
+      <label for="toggle"
+        ><img src="../images/menu-icon.png" alt="menu"
+      /></label>
+
+      <ul class="navlists">
+        <li>
+          <a href="index.html">Home<i class="fas fa-caret-down"></i></a>
+
+          <ul>
+            <li><a href="index.html#goals">Goals</a></li>
+            <li><a href="index.html#experiences">Experiences</a></li>
+            <li><a href="index.html#projects">My Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="active">Contact</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+    <!-- End nav bar -->
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Contact me</h1>
+        <p>You can reach me via this medium</p>
+        <form action="">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <select required>
+            <option disabled selected="">Message priority</option>
+            <option value="important">Important</option>
+            <option value="not-important">Not important</option>
+          </select>
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+          <input type="submit" value="send" />
+        </form>
+      </div>
+    </section>
+    <!-- end contact -->
+    <!-- footer -->
+    <footer class="footer">
+      <p>Copyright © 2022 Sarah Aligbe. All rights reserved</p>
+    </footer>
+    <!-- end footer -->
+  </body>
+</html>

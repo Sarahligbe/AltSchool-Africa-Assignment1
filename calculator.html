@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body class="calc-body">
+    <nav class="navbar">
+      <h1 class="logo">SayAligbe</h1>
+      <input type="checkbox" id="toggle" />
+      <label for="toggle"
+        ><img src="../images/menu-icon.png" alt="menu"
+      /></label>
+
+      <ul class="navlists">
+        <li>
+          <a href="index.html">Home<i class="fas fa-caret-down"></i></a>
+
+          <ul>
+            <li><a href="index.html#goals">Goals</a></li>
+            <li><a href="index.html#experiences">Experiences</a></li>
+            <li><a href="index.html#projects">My Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+    <h1 class="text">Calculator</h1>
+    <div class="container-2">
+      <div class="calculator">
+        <div class="answer-bar">
+          <button class="key">C</button>
+          <div class="display">0</div>
+          <button class="key">%</button>
+        </div>
+        <div class="keys">
+          <table>
+            <tr>
+              <td><button class="num" id="7">7</button></td>
+              <td><button class="num" id="8">8</button></td>
+              <td><button class="num" id="9">9</button></td>
+              <td><button class="key" id="x">x</button></td>
+            </tr>
+            <tr>
+              <td><button class="num" id="4">4</button></td>
+              <td><button class="num" id="5">5</button></td>
+              <td><button class="num" id="6">6</button></td>
+              <td><button class="key" id="/">/</button></td>
+            </tr>
+            <tr>
+              <td><button class="num" id="1">1</button></td>
+              <td><button class="num" id="2">2</button></td>
+              <td><button class="num" id="3">3</button></td>
+              <td><button class="key" id="+">+</button></td>
+            </tr>
+            <tr>
+              <td><button class="key" id="dot">.</button></td>
+              <td><button class="num" id="0">0</button></td>
+              <td><button class="num-equal" id="equal">=</button></td>
+              <td><button class="num" id="-">-</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

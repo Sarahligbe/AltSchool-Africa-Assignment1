@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar">
+      <h1 class="logo">SayAligbe</h1>
+      <input type="checkbox" id="toggle" />
+      <label for="toggle"
+        ><img src="../images/menu-icon.png" alt="menu"
+      /></label>
+
+      <ul class="navlists">
+        <li>
+          <a href="#" class="active">Home<i class="fas fa-caret-down"></i></a>
+
+          <ul>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+    <!-- End nav bar -->
+
+    <!-- About me -->
+    <section id="about" class="about">
+      <div class="container">
+        <img src="../images/sarah.jpg" alt="Sarah" />
+        <div>
+          <h1>Hello, my name is<br />Sarah Ofure Aligbe</h1>
+          <p>
+            I am an aspiring Cloud Engineer who is<br />
+            always open to learning new things. I am<br />
+            interested in tech, movies, travel and having a good time.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End About me -->
+
+    <!-- Goals -->
+    <section id="goals" class="goals">
+      <div class="container">
+        <h1>Goals</h1>
+        <p>
+          My goal for this diploma course is to gain the necessary knowledge and
+          bag an internship from this program in order to break into the tech
+          industry. I also hope to make a lot of meaningful connections on my
+          journey.
+        </p>
+      </div>
+    </section>
+    <!-- End goals -->
+
+    <!-- Experiences -->
+    <section id="experiences" class="experiences">
+      <div class="container">
+        <div class="exp">
+          <h2>Education</h2>
+          <ul class="edu">
+            <li>
+              <h3>AltSchool Africa</h3>
+              <p>2022-2023</p>
+              <p>Cloud Engineering Diploma</p>
+            </li>
+            <li>
+              <h3>University of Benin</h3>
+              <p>2016-Present</p>
+              <p>Bsc Science Laboratory Technology</p>
+            </li>
+            <li>
+              <h3>Test Automation University</h3>
+              <p>2020</p>
+              <p>Java Programming</p>
+            </li>
+            <li>
+              <h3>Jobberman</h3>
+              <p>2021</p>
+              <p>Soft Skills Training Certificate</p>
+            </li>
+            <li>
+              <h3>FGGC, Bwari</h3>
+              <p>2011-2014</p>
+              <p>SSCE</p>
+            </li>
+          </ul>
+        </div>
+        <div class="exp">
+          <h2>Job Experiences</h2>
+          <ul class="job">
+            <li>
+              <h3>Nomagbon Pharmaceuticals, Benin</h3>
+              <p>2021</p>
+              <p>Intern</p>
+            </li>
+            <li>
+              <h3>ABAF Computer Services</h3>
+              <p>2020</p>
+              <p>Computer Operator</p>
+            </li>
+            <li>
+              <h3>I-Center</h3>
+              <p>2016</p>
+              <p>Computer Operator</p>
+            </li>
+          </ul>
+        </div>
+        <div class="exp">
+          <h2>Hobbies and other skills</h2>
+          <ul class="hobbies">
+            <li>Watching movies</li>
+            <li>Baking</li>
+            <li>Singing</li>
+            <li>Traveling</li>
+            <li>Soft skills</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End experiences -->
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="project-text">
+          <h1>Projects</h1>
+          <p>Some of my work is displayed below</p>
+        </div>
+        <a href="calculator.html"><img src="../images/calculator1.jpg" alt="Calculator"></a>
+        <div class="calculator-text">
+          <p>
+            I created a calculator with html tables and designed it with flexbox
+          </p>
+          <h6>Click image to view project</h6>
+        </div>
+      </div>
+    </section>
+    <!-- End projects -->
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Contact me</h1>
+        <p>You can reach me via this medium</p>
+        <form action="">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <select required>
+            <option disabled selected="">Message priority</option>
+            <option value="important">Important</option>
+            <option value="not-important">Not important</option>
+          </select>
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+          <input type="submit" value="send" />
+        </form>
+      </div>
+    </section>
+    <!-- end contact -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>Copyright © 2022 Sarah Aligbe. All rights reserved</p>
+    </footer>
+    <!-- end footer -->
+  </body>
+</html>

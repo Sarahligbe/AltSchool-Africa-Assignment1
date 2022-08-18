@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body class="login-body">
+    <!-- nav bar -->
+    <nav class="navbar">
+      <h1 class="logo">SayAligbe</h1>
+      <input type="checkbox" id="toggle" />
+      <label for="toggle"
+        ><img src="../images/menu-icon.png" alt="menu"
+      /></label>
+
+      <ul class="navlists">
+        <li>
+          <a href="index.html">Home<i class="fas fa-caret-down"></i></a>
+
+          <ul>
+            <li><a href="index.html#goals">Goals</a></li>
+            <li><a href="index.html#experiences">Experiences</a></li>
+            <li><a href="index.html#projects">My Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="#" class="active">Login</a></li>
+      </ul>
+    </nav>
+    <!-- End nav bar -->
+    <div class="log-body">
+      <div class="container-1">
+        <div>
+          <h1>Login</h1>
+          <p>Welcome back! Login your account</p>
+        </div>
+        <form action="#">
+          <div class="login-details">
+            <div class="login-input">
+              <input type="text" placeholder="Enter your Username" required />
+            </div>
+            <div class="login-input">
+              <input
+                type="password"
+                placeholder="Enter your Password"
+                required
+              />
+            </div>
+            <div class="input-box button">
+              <input type="Submit" value="Sign In" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <p>Copyright © 2022 Sarah Aligbe. All rights reserved</p>
+    </footer>
+    <!-- end footer -->
+  </body>
+</html>
